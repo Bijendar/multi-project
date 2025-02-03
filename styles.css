@@ -1,50 +1,89 @@
+/* General Page Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    color: #333;
 }
 
+/* Header with Gradient Background */
 header {
-    background: #333;
+    background: linear-gradient(90deg, #ff416c, #ff4b2b);
     color: white;
-    padding: 15px;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Navigation Bar */
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
 }
 
+nav ul li a:hover {
+    color: #ffeb3b;
+}
+
+/* Main Content Section */
 .content {
-    padding: 20px;
+    padding: 30px;
 }
 
+.content img {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.content p {
+    font-size: 18px;
+    color: #444;
+    margin: 15px 0;
+}
+
+/* Stylish Button */
 button {
-    padding: 10px 20px;
-    background: #007bff;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #007bff, #00d4ff);
     color: white;
     border: none;
+    border-radius: 25px;
     cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
 }
 
 button:hover {
-    background: #0056b3;
+    background: linear-gradient(45deg, #0056b3, #008cff);
+    transform: scale(1.05);
 }
 
+/* Footer with Gradient */
 footer {
     margin-top: 20px;
-    background: #333;
+    background: linear-gradient(90deg, #ff4b2b, #ff416c);
     color: white;
-    padding: 10px;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
 }
